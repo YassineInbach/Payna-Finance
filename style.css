@@ -457,6 +457,9 @@ form .btn {
 }
 
 @media screen and (max-width: 550px) {
+  .container {
+      margin: 17px 19px 4px 21px;
+    }
   main {
     margin: 0;
   }
