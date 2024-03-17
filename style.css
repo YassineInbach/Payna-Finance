@@ -20,6 +20,7 @@ header {
 main {
   margin: 0 40px;
 }
+
 footer {
   margin-top: 20px;
   text-align: center;
@@ -371,9 +372,10 @@ form .btn {
 }
 
 @media screen and (max-width: 879px) {
-main {
+  main {
     margin: 0 10px;
   }
+
   .navigation-list {
     column-gap: 13px;
   }
@@ -384,11 +386,10 @@ main {
 
   .info {
     max-width: 204px;
-  
 }
-    }
 
 @media screen and (max-width: 837px) {
+
   .hero-img,
   .navigation-list {
     display: none;
@@ -452,9 +453,9 @@ main {
     display: block;
     margin-top: 10px;
     width: 100%;
-  
+
 }
-}
+
 @media screen and (max-width: 550px) {
   main {
     margin: 0;
@@ -539,4 +540,5 @@ main {
     width: 40px;
   }
 }
+
 /*****************************************Media Query*******************************************************/
