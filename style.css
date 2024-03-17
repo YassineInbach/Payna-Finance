@@ -386,6 +386,7 @@ form .btn {
     max-width: 204px;
   
 }
+    }
 
 @media screen and (max-width: 837px) {
   .hero-img,
@@ -453,7 +454,7 @@ form .btn {
     width: 100%;
   
 }
-
+}
 @media screen and (max-width: 550px) {
   main {
     margin: 0;
