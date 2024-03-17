@@ -371,9 +371,9 @@ form .btn {
 }
 
 @media screen and (max-width: 879px) {
-  main {
+main {
     margin: 0 10px;
-  
+  }
   .navigation-list {
     column-gap: 13px;
   }
