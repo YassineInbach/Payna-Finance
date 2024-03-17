@@ -387,6 +387,7 @@ form .btn {
   .info {
     max-width: 204px;
 }
+}
 
 @media screen and (max-width: 837px) {
 
@@ -454,6 +455,7 @@ form .btn {
     margin-top: 10px;
     width: 100%;
 
+}
 }
 
 @media screen and (max-width: 550px) {
