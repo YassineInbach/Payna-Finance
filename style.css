@@ -373,7 +373,7 @@ form .btn {
 @media screen and (max-width: 879px) {
   main {
     margin: 0 10px;
-    }
+  
   .navigation-list {
     column-gap: 13px;
   }
@@ -385,7 +385,6 @@ form .btn {
   .info {
     max-width: 204px;
   
-}
 }
 
 @media screen and (max-width: 837px) {
@@ -453,7 +452,6 @@ form .btn {
     margin-top: 10px;
     width: 100%;
   
-}
 }
 
 @media screen and (max-width: 550px) {
@@ -530,7 +528,7 @@ form .btn {
     margin-top: 80px;
   }
 
-                                .boost {
+    .boost {
     width: 319px;
   }
 
