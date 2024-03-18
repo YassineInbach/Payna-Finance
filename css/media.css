@@ -1,0 +1,214 @@
+@media screen and (max-width: 1173px) {
+    .navigation-list {
+      column-gap: 24px;
+    }
+  
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+      gap: 30px 0;
+    }
+  
+    .content {
+      text-align: start;
+    }
+  
+    .brand {
+      flex-direction: column;
+      gap: 30px 0;
+    }
+  
+    .brand-title {
+      max-width: max-content;
+      margin-bottom: 0;
+    }
+  
+    .box-productivity {
+      flex-direction: column;
+      width: 100%;
+      gap: 50px 0;
+    }
+  
+    .Productivity {
+      text-align: center;
+    }
+  
+    input {
+      width: 100%;
+    }
+  
+    form .btn {
+      left: 267px;
+    }
+  }
+  
+  @media screen and (max-width: 879px) {
+    main {
+      margin: 0 10px;
+    }
+  
+    .navigation-list {
+      column-gap: 13px;
+    }
+  
+    .card-list {
+      gap: 60px;
+    }
+  
+    .info {
+      max-width: 204px;
+    }
+  }
+  
+  @media screen and (max-width: 837px) {
+  
+    .hero-section .relative,
+    .navigation-list {
+      display: none;
+    }
+  
+    .btn {
+      padding: 10px 41px;
+    }
+  
+    .img-apple {
+      width: 77.28px;
+    }
+  
+    .img-adobe {
+      width: 110.62px;
+      height: 22px;
+    }
+  
+    .img-slack {
+      width: 104.47px;
+      height: 23px;
+    }
+  
+    .img-spotify {
+      width: 88.14px;
+    }
+  
+    .img-google {
+      width: 80.99px;
+    }
+  
+    .card-list {
+      display: grid;
+      gap: 35px 0;
+    }
+  
+    .info {
+      max-width: max-content;
+    }
+  
+    .brand-list {
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px 40px;
+    }
+  
+    .box-productivity .absolute {
+      left: 182px;
+    }
+  
+    form {
+      position: inherit;
+    }
+  
+    input {
+      padding: 12px 60px 12px 18px;
+    }
+  
+    form .btn {
+      position: inherit;
+      display: block;
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .container {
+      margin: 17px 19px 4px 21px;
+    }
+  
+    main {
+      margin: 0;
+    }
+  
+    h1 {
+      font-size: 26px;
+      line-height: 37px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    .container {
+      margin: 25px 30px 10px 30px;
+    }
+  
+    .hero-section {
+      margin-top: 70px;
+    }
+  
+    .logo img {
+      width: 38px;
+      height: 23px;
+    }
+  
+    .logo {
+      font-size: 20px;
+    }
+  
+    .btn {
+      padding: 8px 32px;
+    }
+  
+    .brand-list {
+      gap: 24px 20px;
+    }
+  
+    .img-apple {
+      width: 70px;
+    }
+  
+    .img-adobe {
+      width: 90px;
+      height: 22px;
+    }
+  
+    .img-slack {
+      width: 90px;
+      height: 23px;
+    }
+  
+    .img-spotify {
+      width: 84px;
+    }
+  
+    .img-google {
+      width: 80.99px;
+    }
+  
+    .better {
+      margin-top: 100px;
+    }
+  
+    .box-productivity {
+      margin-top: 80px;
+    }
+  
+    .boost {
+      width: 319px;
+    }
+  
+    .box-productivity .absolute {
+      top: 90px;
+      left: 128px;
+      width: 40px;
+    }
+  }
+  
