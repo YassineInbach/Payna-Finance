@@ -111,7 +111,6 @@ li {
 .btn {
   padding: 12px 48px;
   border-radius: 50px;
-  color: #070f18;
   background-color: #f5f6fb;
   border: 0;
   cursor: pointer;
@@ -129,16 +128,16 @@ li {
   margin-top: 100px;
 }
 
-.box {
+.group {
   max-width: 450px;
 }
 
-.box .btn {
+.group .btn {
   background-color: #1f7cff;
   color: white;
 }
 
-.hero-img {
+.relative {
   position: relative;
 }
 
@@ -146,15 +145,16 @@ li {
   width: 430px;
   border-radius: 20px;
 }
-
+.absolute {
+  position: absolute;
+  top: 113px;
+  right: 320px;
+}
 .child {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   column-gap: 12px;
-  position: absolute;
-  top: 113px;
-  right: 320px;
   background-color: #ffffff;
   width: 190px;
   height: 55px;
@@ -162,7 +162,7 @@ li {
   box-shadow: #0000000d 0px 4px 6px -1px, #0000000d 0px 2px 4px -1px;
 }
 
-.child:nth-child(2) {
+.absolute:nth-child(2) {
   top: 53px;
   left: 295px;
 }
@@ -191,7 +191,7 @@ li {
   margin-top: 70px;
 }
 
-.brand h2 {
+.brand-title {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -205,18 +205,18 @@ li {
 }
 
 .img-apple {
-  width: 87.7px;
-  height: 30px;
+  width: 88px;
+    height: 33px;
 }
 
 .img-adobe {
   width: 125.54px;
-  height: 30px;
+  height: 26px;
 }
 
 .img-slack {
   width: 118.56px;
-  height: 30px;
+  height: 27px;
 }
 
 .img-spotify {
@@ -265,12 +265,7 @@ li {
   column-gap: 15px;
 }
 
-.image-container {
-  position: relative;
-}
-
-.absolute-image {
-  position: absolute;
+.card .absolute {
   top: 18px;
   left: 18px;
 }
@@ -297,8 +292,7 @@ li {
   border-radius: 15px;
 }
 
-.play {
-  position: absolute;
+.box-productivity .absolute {
   top: 123px;
   left: 183px;
   width: 55px;
@@ -344,8 +338,7 @@ form .btn {
     flex-direction: column;
     gap: 30px 0;
   }
-
-  .brand h2 {
+ .brand-title {
     max-width: max-content;
     margin-bottom: 0;
   }
@@ -388,9 +381,8 @@ form .btn {
 }
 
 @media screen and (max-width: 837px) {
-
-  .hero-img,
-  .navigation-list {
+  .hero-section .relative,
+    .navigation-list {
     display: none;
   }
 
@@ -434,8 +426,7 @@ form .btn {
     flex-wrap: wrap;
     gap: 30px 40px;
   }
-
-  .play {
+     .box-productivity .absolute {
     left: 182px;
   }
 
@@ -452,7 +443,6 @@ form .btn {
     display: block;
     margin-top: 10px;
     width: 100%;
-
 }
 }
 
@@ -494,11 +484,6 @@ form .btn {
     padding: 8px 32px;
   }
 
-  .box {
-    max-width: max-content;
-    text-align: start;
-  }
-
   .brand-list {
     gap: 24px 20px;
   }
@@ -536,8 +521,7 @@ form .btn {
     .boost {
     width: 319px;
   }
-
-  .play {
+ .box-productivity .absolute {
     top: 90px;
     left: 128px;
     width: 40px;
