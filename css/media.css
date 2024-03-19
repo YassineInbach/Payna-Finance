@@ -37,6 +37,9 @@
   form .btn {
     left: 267px;
   }
+  fooetr p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 879px) {
