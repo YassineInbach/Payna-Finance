@@ -158,14 +158,12 @@ li {
   padding: 10px 0;
   width: 190px;
   border-radius: 10px;
-  border-radius: 10px;
   background: #ffffff;
   box-shadow: #0000000d 0px 4px 6px -1px, #0000000d 0px 2px 4px -1px;
 }
 
 .child {
   display: inline-flex;
-  justify-content: center;
   column-gap: 12px;
 }
 
